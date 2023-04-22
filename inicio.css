@@ -1,0 +1,125 @@
+* {
+	font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+  
+li {
+	float: left;
+}
+  
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+  
+li a:hover {
+	background-color: #111;
+}
+
+.barra {
+	background-color: #E50914;
+}
+
+.logo {
+	max-width: 300px;
+	height:100px;
+}
+
+.form-main {
+    height: 450px;
+    padding: 60px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content {
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+
+}
+
+.form-content .box {
+    border-color: rgb(0, 0, 0);
+    border: 1px solid ;
+    padding: 40px 50px;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-top: 250px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 28px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.form-content form {
+    margin: 25px 0 20px;
+}
+
+.form-content .input-box {
+    margin: 25px;
+}
+
+.form-content .input-control {
+    display: block;
+    height: 45px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.form-content .input-link {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.form-content .btn {
+  margin-left: 80px;
+  height: 45px;
+  width: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: #E50914;
+  text-transform: uppercase;
+  font-family: inherit;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.form-content .p {
+    text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}

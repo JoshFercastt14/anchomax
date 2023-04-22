@@ -1,0 +1,43 @@
+* {
+	font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+  
+li {
+	float: left;
+}
+  
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+  
+li a:hover {
+	background-color: #111;
+}
+
+.barra {
+	background-color: #E50914;
+}
+
+.logo {
+	max-width: 300px;
+	height:100px;
+}
+
+.series {
+	border: 1px solid #746f6f;
+	margin: 10px;
+	max-width: 300px;
+    height: 400px;
+}
